@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inshort_new_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvFoodInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:text="@string/food_information"
+        android:textColor="@color/Grey8"
+        android:textSize="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/tvRemember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFoodInfo"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:text="@string/points_to_remember"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvRemember"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="20">
+
+        <ImageView
+            android:id="@+id/ivFoodInfoImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:scaleType="fitXY"
+            android:src="@drawable/inshort_mother_image" />
+
+        <TextView
+            android:id="@+id/tvFoodInfoDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="15"
+            android:autoSizeMaxTextSize="@dimen/_13sdp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="@dimen/_3sdp"
+            android:maxLines="5"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:text="@string/start_breastfeeding_immediately_after_birth_within_1_hour_baby_should_be_put_to_the_mother_s_breast"
+            android:textColor="@color/Grey8" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

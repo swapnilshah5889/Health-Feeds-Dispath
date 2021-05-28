@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_healthfeeds_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/ivSliderBackgroundImage"
+            android:scaleType="centerCrop"
+            android:translationZ="@dimen/_1sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/ivFixedTransparentBackground"
+            android:translationZ="@dimen/_2sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:translationZ="@dimen/_3sdp"
+            android:layout_height="match_parent">
+
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/vp_healthfeeds"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:overScrollMode="never"/>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tl_healthfeeds_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                app:tabBackground="@drawable/tab_selector"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="0dp"
+                android:layout_gravity="bottom"
+                app:tabPaddingEnd="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                app:tabPaddingStart="@dimen/_3sdp" />
+
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </RelativeLayout>
+</LinearLayout>

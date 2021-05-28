@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "293911196343",
+    "project_id": "cloum-4044a",
+    "storage_bucket": "cloum-4044a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293911196343:android:2a76ee3eae9fb4777e5332",
+        "android_client_info": {
+          "package_name": "com.fluvina.hummnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293911196343-doa4vb31nhedq43t8df2gapd677ar60p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnAXoICIRxhK4cSpTb7DVJ5zJXvTVRBys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293911196343-doa4vb31nhedq43t8df2gapd677ar60p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bc"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <include layout="@layout/toolbar_main"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5sdp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/dashboard_blogs_dashboard_fragment_layout_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/pedding0" />
+
+        <TextView
+            android:id="@+id/dashboard_blogs_dashboard_fragment_layout_back_webview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/pedding0"
+            android:background="@color/cv_bc"
+            android:gravity="center_vertical"
+            android:padding="@dimen/pedding0"
+            android:text="@string/txt_back"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/labelfont1"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

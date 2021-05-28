@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green_indicator">#2ed682</color>
+
+    <color name="header_text">#7a7a7a</color>
+
+    <color name="colorPrimary">@color/theam_skycolor1</color>
+    <color name="colorPrimaryDark">@color/theam_skycolor1</color>
+    <color name="colorAccent">@color/theam_skycolor</color>
+
+    <color name="theam_skycolor">#ec478b</color>
+    <color name="theam_skycolor1">#00abbb</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="app_bc">#FFFFFF</color>
+    <color name="cv_bc">#EC2A74</color>
+
+    <color name="tabstrip_indicatorcolor">#03a678</color>
+    <color name="cv_yello">#F4C20D</color>
+
+    <color name="background">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="divider">#B6B6B6</color>
+
+    <color name="logo_blue">#007ec1</color>
+
+    <color name="logo_light_pink">#f6a7c0</color>
+
+    <color name="logo_rama">#00abbb</color>
+
+    <color name="logo_gray">#545456</color>
+    <color name="logo_light_gray">#78787a</color>
+
+    <color name="searchhint">#b6e9e4</color>
+
+    <color name="transparent_blue">#257FB1DE</color>
+
+    <!-- Pink Color pallet -->
+
+    <!-- Purple Color Pallet -->
+
+    <!-- Deep Purple color -->
+
+    <!-- Indigo color pallet -->
+
+    <!-- Blue Color Pallet -->
+    <color name="Blue0">#E3F2FD</color>
+    <color name="Blue5">#2196F3</color>
+    <color name="Blue8">#1565C0</color>
+
+    <!-- Light Blue Color pallet -->
+
+    <!-- Cyan Color Pallet -->
+
+    <!-- Teal Color Pallet -->
+
+    <!-- Grey Color Pallet -->
+    <color name="Grey0">#FAFAFA</color>
+    <color name="Grey1">#F5F5F5</color>
+    <color name="Grey2">#EEEEEE</color>
+    <color name="Grey3">#E0E0E0</color>
+    <color name="Grey4">#BDBDBD</color>
+    <color name="Grey5">#9E9E9E</color>
+    <color name="Grey6">#8F8F8F</color>
+    <color name="Grey7">#686767</color>
+    <color name="Grey8">#424242</color>
+    <color name="Grey9">#212121</color>
+
+
+    <!-- Brown Color Pallet -->
+
+    <!-- Blue Grey Color Pallet -->
+
+
+    <!-- Orange Color Pallet -->
+    <color name="Orange5">#FF9800</color>
+
+    <color name="red">#F44336</color>
+
+    <color name="theme_light_color">#EFF3F7</color>
+
+
+    <color name="green_color_picker">#01A368</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="transparent_black">#7f000000</color>
+    <color name="transparent_white">#7fffffff</color>
+    <color name="red_color_picker1">#ff0000</color>
+    <color name="inshort_color">#96A3CF</color>
+    <color name="inshort_dark_color">#6D7DB1</color>
+    <color name="inshort_blue">#4F699A</color>
+    <color name="inshort_dark_blue">#405C9E</color>
+    <color name="inshort_light_grey">#F5F5F5</color>
+    <color name="Blue_Inshort">#A7BEF2</color>
+    <color name="Yellow_Inshort">#F2D553</color>
+    <color name="Yellow_Inshort_light">#FBCA24</color>
+    <color name="memory_background_color">#E7EBF4</color>
+    <color name="inshort_new_color">#F3E3E3</color>
+
+    //New Drawer
+    <color name="drawer_color_1">#548CBF</color>
+    <color name="drawer_color_2">#74A2CD</color>
+    <color name="drawer_color_3">#4079AE</color>
+    <color name="drawer_card_color_1">#3ED4C9</color>
+    <color name="drawer_card_color_2">#FFDC8E</color>
+    <color name="drawer_card_color_3">#97FF9C</color>
+    <color name="drawer_card_color_4">#FF8A8A</color>
+    <color name="drawer_card_color_5">#88BBF5</color>
+    <color name="drawer_card_color_6">#59E5A6</color>
+
+    <color name="colorChipViewBackground">#E0E0E0</color>
+
+    // Agora
+    <color name="agora_blue">#006AD8</color>
+    <!--<color name="dark_black">#CC262626</color>-->
+    <color name="transparent_75_white">#ACFFFFFF</color>
+    <color name="dark_black">#FF333333</color>
+    <color name="slot_selected">#2196F3</color>
+    <color name="overview_green">#00B800</color>
+    <color name="transparent_black_screen">#A6000000</color>
+
+    // SweetAlert
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="text_color">#575757</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+
+    <color name="appointment_bkg">#E0FFFD</color>
+    <color name="appointment_dark">#33C1B8</color>
+    <color name="doc_profile_action_btn">#FFEFEF</color>
+
+</resources>

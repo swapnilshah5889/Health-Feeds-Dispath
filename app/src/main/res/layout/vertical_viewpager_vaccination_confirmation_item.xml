@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/vMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE9EE"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cv_bc"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llThirdLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/inshort_blue"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_3sdp">
+
+                    <TextView
+                        android:id="@+id/tvVaccine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:lineSpacingExtra="@dimen/_3sdp"
+                        android:paddingRight="@dimen/_5ssp"
+                        android:text="@string/txt_why_vaccine_new"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_30ssp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/rlVaccineBottom3"
+                        android:layout_below="@+id/tvVaccine"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:alpha="0.9"
+                        android:fontFamily="@font/roboto_regular"
+                        android:lineSpacingExtra="@dimen/_2sdp"
+                        android:paddingRight="@dimen/_5ssp"
+                        android:text="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.\n\nRichard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance."
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlVaccineBottom3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:orientation="horizontal"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/tvDone"
+                            android:layout_width="@dimen/_120sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/inshort_positive_btn_background"
+                            android:backgroundTint="@color/inshort_dark_blue"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="center"
+                            android:text="@string/txt_done"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14ssp" />
+
+                        <ImageView
+                            android:id="@+id/ivBackThird"
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/right_arrow"
+                            app:tint="@color/white" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSecondLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/Yellow_Inshort_light"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@+id/rlVaccineBottom2"
+                        android:layout_marginBottom="@dimen/_minus55sdp"
+                        android:background="@color/Yellow_Inshort_light">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_3sdp">
+
+                            <RelativeLayout
+                                android:id="@+id/rlBabyInfo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@+id/ivNotification2">
+
+                                <TextView
+                                    android:id="@+id/tvChildName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:lineSpacingExtra="@dimen/_3sdp"
+                                    android:paddingRight="@dimen/_5ssp"
+                                    android:text="BABO"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_36ssp" />
+
+                                <TextView
+                                    android:id="@+id/tvAge2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tvChildName"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:paddingTop="@dimen/_2ssp"
+                                    android:paddingBottom="@dimen/_2ssp"
+                                    android:text="Birth (0-7 Days)"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_12ssp" />
+
+                                <TextView
+                                    android:id="@+id/tvActualDate2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tvAge2"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:paddingTop="@dimen/_2ssp"
+                                    android:paddingBottom="@dimen/_2ssp"
+                                    android:text="Actual Date : 05 June 2019"
+                                    android:textColor="@color/Grey8"
+                                    android:textSize="@dimen/_8ssp" />
+
+                            </RelativeLayout>
+
+                            <ImageView
+                                android:id="@+id/ivNotification2"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/circle_drawable"
+                                android:backgroundTint="@color/Yellow_Inshort"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/inshorts_notification" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/ivNotification2"
+                                android:layout_alignTop="@+id/ivNotification2"
+                                android:layout_alignRight="@+id/ivNotification2"
+                                android:layout_alignBottom="@+id/ivNotification2"
+                                android:fontFamily="@font/roboto_regular"
+                                android:gravity="center"
+                                android:padding="@dimen/_2ssp"
+                                android:text="@string/txt_vaccine_reminder"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_8ssp" />
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_below="@+id/rlBabyInfo"
+                                android:layout_marginLeft="@dimen/_20sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_20sdp"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/tvVaccineList"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="@string/txt_your_baby_s_vaccinations"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_12ssp" />
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/rvVaccineList"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tvVaccineList"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:nestedScrollingEnabled="false" />
+
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rlVaccineBottom2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/transparent">
+
+                        <ImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_150sdp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/vaccine_background"
+                            app:tint="@color/inshort_blue" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_65sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_25sdp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <TextView
+                                android:id="@+id/tvWhyVaccine"
+                                android:layout_width="@dimen/_170sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/rounded_corner_theme_background"
+                                android:backgroundTint="@color/inshort_blue"
+                                android:gravity="center"
+                                android:text="@string/txt_why_vaccine_new"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12ssp" />
+
+                            <ImageView
+                                android:id="@+id/ivBackSecond"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/right_arrow"
+                                app:tint="@color/inshort_blue" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llFirstLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/inshort_light_grey"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/rlQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@+id/rlBottomQuiz"
+                        android:layout_marginBottom="@dimen/_minus55sdp"
+                        android:background="@color/inshort_light_grey">
+
+                        <RelativeLayout
+                            android:id="@+id/rlTopMedia"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_3sdp">
+
+                            <TextView
+                                android:id="@+id/tvContentText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:layout_toLeftOf="@+id/ivNotification"
+                                android:fontFamily="@font/roboto_medium"
+                                android:lineSpacingExtra="@dimen/_3sdp"
+                                android:paddingTop="@dimen/_30ssp"
+                                android:paddingRight="@dimen/_10ssp"
+                                android:paddingBottom="@dimen/_10ssp"
+                                android:text="@string/txt_first_step_to_secure_your_son_babo_s_future_is_to_vaccinate"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_30ssp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/tvQuestion"
+                                android:layout_below="@+id/tvContentText"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:layout_toLeftOf="@+id/ivBabyImage">
+
+                                <TextView
+                                    android:id="@+id/tvAge"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:paddingTop="@dimen/_2ssp"
+                                    android:paddingBottom="@dimen/_2ssp"
+                                    android:text="Birth (0-7 Days)"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_12ssp" />
+
+                                <TextView
+                                    android:id="@+id/tvBirthDate"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tvAge"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:paddingTop="@dimen/_2ssp"
+                                    android:paddingBottom="@dimen/_2ssp"
+                                    android:text="Actual Date : 05 June 2019"
+                                    android:textColor="@color/Grey6"
+                                    android:textSize="@dimen/_8ssp" />
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_above="@+id/ivDummy2"
+                                    android:layout_below="@+id/tvBirthDate"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginRight="@dimen/_10ssp"
+                                    android:src="@drawable/bcg_vacc_location"
+                                    app:civ_border_color="@color/logo_light_pink"
+                                    app:civ_border_width="@dimen/_20sdp" />
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/ivDummy2"
+                                    android:layout_width="@dimen/_20sdp"
+                                    android:layout_height="@dimen/_20sdp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginRight="@dimen/_10ssp"
+                                    android:layout_marginBottom="@dimen/_30sdp"
+                                    android:src="@drawable/bcg_vacc_location"
+                                    app:civ_border_color="@color/logo_light_pink"
+                                    app:civ_border_width="@dimen/_10sdp" />
+
+                            </RelativeLayout>
+
+                            <ImageView
+                                android:id="@+id/ivNotification"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/circle_drawable"
+                                android:backgroundTint="@color/memory_background_color"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/inshorts_notification" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/ivNotification"
+                                android:layout_alignTop="@+id/ivNotification"
+                                android:layout_alignRight="@+id/ivNotification"
+                                android:layout_alignBottom="@+id/ivNotification"
+                                android:fontFamily="@font/roboto_regular"
+                                android:gravity="center"
+                                android:padding="@dimen/_2ssp"
+                                android:text="@string/txt_vaccine_reminder"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_8ssp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/ivBabyImage"
+                                android:layout_width="@dimen/_170sdp"
+                                android:layout_height="@dimen/_170sdp"
+                                android:layout_above="@+id/tvQuestion"
+                                android:layout_below="@+id/tvContentText"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/_30sdp"
+                                android:background="@color/transparent"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/bcg_vacc_location"
+                                app:civ_border_color="@color/logo_light_pink"
+                                app:civ_border_width="@dimen/_2sdp" />
+
+
+                            <TextView
+                                android:id="@+id/tvQuestion"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="@dimen/_20sdp"
+                                android:layout_marginRight="@dimen/_20sdp"
+                                android:fontFamily="@font/roboto_regular"
+                                android:gravity="center"
+                                android:text="@string/txt_have_you_secured_his_future"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12ssp" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rlBottomQuiz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/transparent">
+
+                        <ImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_150sdp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/vaccine_background" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_45sdp"
+                            android:layout_marginTop="@dimen/_65sdp"
+                            android:layout_marginRight="@dimen/_20sdp"
+                            android:layout_marginBottom="@dimen/_25sdp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <ImageView
+                                android:id="@+id/ivInjection1"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_50sdp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/injection_icon" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/ivInjection1"
+                                android:layout_alignTop="@+id/ivInjection1"
+                                android:layout_alignRight="@+id/ivInjection1"
+                                android:layout_alignBottom="@+id/ivInjection1"
+                                android:layout_marginRight="@dimen/_28sdp"
+                                android:gravity="center"
+                                android:text="@string/view_babys_vaccines"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12ssp" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

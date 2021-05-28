@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="labelfont00">4sp</dimen>
+    <dimen name="labelfont0">5sp</dimen>
+    <dimen name="labelfont1">6sp</dimen>
+    <dimen name="labelfont2">7sp</dimen>
+
+    <dimen name="labelfont3">8sp</dimen>
+    <dimen name="labelfont4">9sp</dimen>
+    <dimen name="labelfont5">10sp</dimen>
+
+    <dimen name="label_height0">16dp</dimen>
+    <dimen name="label_height00">20dp</dimen>
+    <dimen name="label_height1">24dp</dimen>
+    <dimen name="label_height2">32dp</dimen>
+    <dimen name="label_height3">40dp</dimen>
+    <dimen name="label_height4">48dp</dimen>
+
+    <dimen name="pedding000">1dp</dimen>
+    <dimen name="pedding00">2dp</dimen>
+    <dimen name="pedding0">4dp</dimen>
+    <dimen name="pedding1">6dp</dimen>
+    <dimen name="pedding2">8dp</dimen>
+    <dimen name="pedding3">10dp</dimen>
+    <dimen name="pedding5">14dp</dimen>
+    <dimen name="pedding7">17dp</dimen>
+
+    <dimen name="border0">0.25dp</dimen>
+    <dimen name="border1">0.50dp</dimen>
+    <dimen name="border2">1dp</dimen>
+
+    <dimen name="imageview_hw0">8dp</dimen>
+    <dimen name="imageview_hw01">10dp</dimen>
+    <dimen name="imageview_hw02">12dp</dimen>
+    <dimen name="imageview_hw1">16dp</dimen>
+    <dimen name="imageview_hw2">24dp</dimen>
+    <dimen name="imageview_hw3">32dp</dimen>
+    <dimen name="imageview_hw4">40dp</dimen>
+
+    <dimen name="big_height_bc0">30dp</dimen>
+    <dimen name="big_height_bc01">50dp</dimen>
+    <dimen name="big_height_bc1">60dp</dimen>
+    <dimen name="big_height_bc11">75dp</dimen>
+    <dimen name="big_height_bc2">90dp</dimen>
+    <dimen name="big_height_bc3">120dp</dimen>
+    <dimen name="big_height_bc4">155dp</dimen>
+    <dimen name="big_height_bc5">175dp</dimen>
+
+    <dimen name="view_height0">12.50dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="video_indicator_bottom_margin">20dp</dimen>
+</resources>

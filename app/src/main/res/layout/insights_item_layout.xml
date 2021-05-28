@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/llInsightContainer"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:elevation="0dp"
+        android:layout_margin="@dimen/_5sdp"
+        android:id="@+id/llInsightFeed"
+        android:layout_width="@dimen/_108sdp"
+        android:layout_height="@dimen/_192sdp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivInsightBkg"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/ivInsight"
+            android:background="@color/Grey2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,999 @@
+<resources>
+    <string name="app_name">ClouM</string>
+    <string name="app_name1">ClouM</string>
+
+    <!---->
+
+    <string name="txt_already_have_an_account">"Already have an account ? "</string>
+    <string name="txt_login">Login</string>
+    <string name="lbl_dialog_registration_completed">Registration Completed</string>
+    <string name="lbl_dialog_registration_failed">Registration Fail</string>
+    <string name="lbl_dialog_password_changed">Password Changed</string>
+    <string name="lbl_dialog_successfully">Successfully</string>
+    <string name="lbl_dialog_try_again">Try Again..</string>
+    <string name="lbl_dialog_error_inchanging_password">Error in Changing Password</string>
+
+    <string name="login_screen_forgot_password">Forgot password ?</string>
+    <string name="txt_don_t_have_account">"Don\'t have any account ? "</string>
+
+    <string-array name="vital_period">
+        <item>@string/lbl_all</item>
+        <item>@string/lbl_week</item>
+        <item>@string/lbl_month</item>
+        <item>@string/lbl_year</item>
+    </string-array>
+
+    <string name="lbl_all">All</string>
+    <string name="lbl_week">Week</string>
+    <string name="lbl_month">Month</string>
+    <string name="lbl_year">Year</string>
+
+    <string-array name="height_ft">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="height_inch">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="medicine_dosagetype_array">
+        <item>mg</item>
+        <item>gm</item>
+        <item>tsf</item>
+        <item>u</item>
+        <item>mcg</item>
+        <item>puff</item>
+        <item>drop</item>
+        <item>IU</item>
+        <item>ml</item>
+
+    </string-array>
+
+
+    <string-array name="book_apporelation">
+        <item>@string/lbl_self</item>
+    </string-array>
+
+    <string name="lbl_self">Self</string>
+
+    <string-array name="rem_type">
+        <item>@string/lbl_start_all</item>
+        <item>@string/lbl_stop_all</item>
+        <item>@string/lbl_stop_reminders</item>
+        <item>@string/lbl_monthly</item>
+        <item>@string/lbl_weekly</item>
+        <item>@string/lbl_daily</item>
+    </string-array>
+
+    <string name="lbl_start_all">Start All</string>
+    <string name="lbl_stop_all">Stop All</string>
+    <string name="lbl_stop_reminders">Stop Reminders</string>
+    <string name="lbl_monthly">Monthly</string>
+    <string name="lbl_weekly">Weekly</string>
+    <string name="lbl_daily">Daily</string>
+
+    <string-array name="caretaker_relation">
+        <item>@string/lbl_brother</item>
+        <item>@string/lbl_sister</item>
+        <item>@string/lbl_mother</item>
+        <item>@string/lbl_father</item>
+        <item>@string/lbl_grandfather</item>
+        <item>@string/lbl_grandmother</item>
+        <item>@string/lbl_son</item>
+        <item>@string/lbl_daughter</item>
+        <item>@string/lbl_friend</item>
+        <item>@string/lbl_wife</item>
+        <item>@string/lbl_husband</item>
+        <item>@string/lbl_other</item>
+    </string-array>
+
+    <string name="lbl_brother">Brother</string>
+    <string name="lbl_sister">Sister</string>
+    <string name="lbl_mother">Mother</string>
+    <string name="lbl_father">Father</string>
+    <string name="lbl_grandfather">GrandFather</string>
+    <string name="lbl_grandmother">GrandMother</string>
+    <string name="lbl_son">Son</string>
+    <string name="lbl_daughter">Daughter</string>
+    <string name="lbl_friend">Friend</string>
+    <string name="lbl_wife">Wife</string>
+    <string name="lbl_husband">Husband</string>
+    <string name="lbl_other">Other</string>
+
+    <string-array name="call_sms">
+        <item>@string/lbl_call</item>
+        <item>@string/lbl_sms</item>
+    </string-array>
+
+    <string name="lbl_sms">sms</string>
+    <string name="lbl_call">call</string>
+
+
+    <string-array name="Language">
+        <item>@string/lbl_english</item>
+        <item>@string/lbl_gujarati</item>
+        <item>@string/lbl_hindi</item>
+    </string-array>
+
+    <string name="lbl_english">English</string>
+    <string name="lbl_gujarati">Gujarati</string>
+    <string name="lbl_hindi">Hindi</string>
+
+
+    <string-array name="contact_us_subjects">
+        <item>@string/option_issue</item>
+        <item>@string/option_report_content</item>
+        <item>@string/option_sales_enquiry</item>
+        <item>@string/option_support</item>
+        <item>@string/option_Research</item>
+        <item>@string/option_partnership</item>
+    </string-array>
+
+    <string name="option_issue">Issue</string>
+    <string name="option_report_content">Report a content</string>
+    <string name="option_sales_enquiry">Sales Enquiry</string>
+    <string name="option_support">Support</string>
+    <string name="option_Research">Research</string>
+    <string name="option_partnership">Partnership</string>
+
+    <string name="action_save">Save</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="drawer_home">Home</string>
+    <string name="drawer_pillbox">Pillbox</string>
+    <string name="drawer_calendar">Health Calendar</string>
+    <string name="drawer_vitals">Health Vitals</string>
+    <string name="drawer_book_appointment">Book Appointment</string>
+    <string name="drawer_health_records">My Health Records</string>
+    <string name="drawer_caretaker">CareTakers</string>
+    <string name="drawer_med_confirmation">Med Confirmation</string>
+    <string name="drawer_notification">Notification</string>
+    <string name="drawer_setting">Settings</string>
+    <string name="drawer_share_app">Share App</string>
+    <string name="drawer_logout">LogOut</string>
+
+
+    <string name="txt_online">Online</string>
+
+    <string name="txt_feel_sad">SAD</string>
+    <string name="txt_feel_ok">OK</string>
+    <string name="txt_feel_satisfied">Satisfied</string>
+    <string name="txt_feel_good">Good</string>
+    <string name="txt_feel_awesome">Wow Awesome</string>
+    <string name="txt_start_conversation">Start conversation</string>
+    <string name="txt_time_horizon">Time horizone</string>
+    <string name="txt_value">Value</string>
+    <string name="txt_heart_risk">Heart Risk</string>
+    <string name="txt_diabetes_risk">Diabetes Risk</string>
+    <string name="txt_share_app_description">MobiHealth - 360 degree Health schedule management and care platform.</string>
+    <string name="txt_select_clinic">Select Clinic</string>
+    <string name="txt_audio_error">Audio error</string>
+    <string name="txt_client_error">Client error</string>
+    <string name="txt_insufficient_permission">Insufficient permissions</string>
+    <string name="txt_network_error">Network error</string>
+    <string name="txt_network_timeout">Network timeout</string>
+    <string name="txt_no_voice_match">No match</string>
+    <string name="txt_speech_recognizer_busy">Speech Recognizer is busy</string>
+    <string name="txt_speech_recognizer_server_error">Server error</string>
+    <string name="txt_speech_recognizer_no_input">No speech input</string>
+    <string name="txt_speech_recognizer_not_understand_you">Speech Recognizer cannot understand you</string>
+
+    <string name="txt_dialog_alert">Alert !</string>
+    <string name="txt_dialog_you_will_loose_data">You will loose unsaved data !</string>
+    <string name="txt_dialog_button_yes">Yes</string>
+    <string name="txt_dialog_button_no">No</string>
+    <string name="txt_dialog_confirm">Confirm !</string>
+    <string name="txt_dialog_exit">Are sure you want to exit ?</string>
+    <string name="txt_dialog_successful">Successful</string>
+    <string name="txt_dialog_fail">Fail !</string>
+    <string name="txt_dialog_successfully">Successfully</string>
+    <string name="txt_dialog_failed_try_again">Failed, Try Again</string>
+    <string name="txt_dialog_button_cancel">Cancel</string>
+    <string name="txt_dialog_delete_confirmation">Are you sure you want to delete ?</string>
+    <string name="txt_dialog_yes_do_it">Yes,do it!</string>
+    <string name="txt_dialog_appointment_cancelled">Appointment Cancelled</string>
+    <string name="txt_dialog_try_again">Try Again..</string>
+    <string name="txt_dialog_reschedule_successfully">Reschedule Successfully</string>
+    <string name="txt_dialog_reschedule_fail">Reschedule fail..</string>
+    <string name="txt_dialog_replace_appointment">Replace Appointment</string>
+    <string name="txt_dialog_want_to_replace_appointment">Do you want to replace the appointment?</string>
+    <string name="txt_dialog_appointment_added">Appointment Added</string>
+    <string name="txt_dialog_invalid_credentials">Invalid credentials</string>
+
+    <string name="txt_doctor_name">Doctor Name</string>
+
+
+    <string name="txt_apoointments_count_with_value">%1$s Appointments</string>
+    <string name="txt_packages_count_with_value">%1$s Packages</string>
+    <string name="txt_prescriptions_count_with_value">%1$s Prescriptions</string>
+    <string name="txt_reports_count_with_value">%1$s Reports</string>
+    <string name="txt_appointment_string_to_show_with_value">with %1$s for the appointment on %2$s</string>
+    <string name="txt_cancel_appo_confirmation_with_value">You Want To Cancel your appointment with %1$s on %2$s</string>
+    <string name="txt_dialog_your_vital_is_cond_with_value">Your %1$s is %2$s</string>
+    <string name="txt_total_instruction_with_value">Total Instruction - %1$s</string>
+    <string name="txt_instruction_followed_with_value">Instruction followed - %1$s</string>
+    <string name="txt_feedback_date_with_value">Feedback Date* %1$s</string>
+    <string name="txt_showing_pills_of_with_value">Your are showing pills of %1$s</string>
+
+    <string name="txt_no_internet">No Internet Connection…@</string>
+
+    <string name="error_give_valid_number">please give valid number !</string>
+    <string name="error_enter_name">Please enter name !</string>
+    <string name="error_fill_value">please fill value</string>
+    <string name="txt_appointment_with">Appointment With</string>
+    <string name="txt_finish_caps">FINISH</string>
+    <string name="txt_book_appointments">Book Appointments</string>
+    <string name="txt_loading">Loading . . .</string>
+    <string name="txt_men">MEN</string>
+    <string name="txt_diet_schedule">Diet Schedule</string>
+    <string name="txt_message">Message</string>
+
+
+    <string name="txt_calendar_details">Calendar Details</string>
+    <string name="txt_no_emoji_available">No Emoji Available</string>
+    <string name="txt_mobichat">MobiChat</string>
+    <string name="txt_no_active_conversation">No active Conversation</string>
+    <string name="txt_message_info">Message Info</string>
+    <string name="txt_upadating_your_message">Upadating your message …!</string>
+    <string name="txt_your_message_updated_successfully">Your Message updated Successfully !</string>
+    <string name="txt_hii_there">Hii there</string>
+    <string name="txt_file_type">File Type</string>
+    <string name="txt_only_images_jpg_jpeg_png_document_doc_docx_pdf">*Only images (\'.jpg\',\'.jpeg\',\'.png\'), Document (\'.doc\',\'.docx\',\'.pdf\')</string>
+    <string name="txt_image">Image</string>
+    <string name="txt_document">Document</string>
+    <string name="txt_upload_file">Upload File</string>
+    <string name="txt_select">select</string>
+    <string name="txt_for_what">For What</string>
+    <string name="txt_description">Description</string>
+    <string name="txt_upload">Upload</string>
+    <string name="txt_save_caps">SAVE</string>
+    <string name="txt_cancel_caps">CANCEL</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_booking_not_available">BOOKING NOT AVAILABLE</string>
+    <string name="txt_type">Type</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_gen_name">Gen. Name</string>
+    <string name="txt_food_time">Food Time</string>
+    <string name="txt_quantity">Quantity</string>
+    <string name="txt_change_mobile_no">Change Mobile No</string>
+    <string name="txt_new_mobile_number">New Mobile Number *</string>
+    <string name="txt_enter_otp">Enter OTP *</string>
+    <string name="txt_change">Change</string>
+    <string name="txt_change_password">Change Password</string>
+    <string name="txt_change_user_settings">Change User Settings</string>
+    <string name="txt_reminder_type">Reminder Type</string>
+    <string name="txt_city">City</string>
+    <string name="txt_dob">DOB</string>
+    <string name="txt_select_date">select date</string>
+    <string name="txt_height">Height</string>
+    <string name="txt_ft">FT</string>
+    <string name="txt_in">IN</string>
+    <string name="txt_ft_inch">FT/INCH</string>
+    <string name="txt_cm">CM</string>
+    <string name="txt_weight">Weight</string>
+    <string name="txt_bmi">bmi</string>
+    <string name="txt_clinical_profile">Clinical Profile</string>
+    <string name="txt_clinical_risk_score">Clinical Risk Score</string>
+    <string name="txt_heart_disease">Heart Disease</string>
+    <string name="txt_diabetes">Diabetes</string>
+
+    <string name="txt_please_open_www_mobihealth_in_nclick_into_login_and_scan_qr_code">Please open www.mobihealth.in  click into login and scan QR code !!</string>
+    <string name="txt_confirm">CONFIRM</string>
+    <string name="txt_relation">Relation</string>
+    <string name="txt_update">Update</string>
+
+
+    <string name="txt_share">Share</string>
+
+
+    <string name="txt_back">Back</string>
+    <string name="txt_medical_feeds">Medical Feeds</string>
+
+    <string name="txt_have_a_lovely_day">Have a lovely day !!</string>
+    <string name="txt_vitals">Vitals</string>
+    <string name="txt_no_internet_connection">No Internet Connection</string>
+    <string name="txt_please_check_your_internet_connection">Please check your internet connection</string>
+    <string name="txt_try_again">try again</string>
+    <string name="txt_haemoglobin_caps">HAEMOGLOBIN</string>
+    <string name="txt_normal_caps">NORMAL</string>
+    <string name="txt_no_vital_points_recorded">No Vital Points recorded.</string>
+    <string name="txt_date">Date</string>
+    <string name="txt_contact_no">Contact No</string>
+    <string name="txt_timing">Timing</string>
+    <string name="txt_services">Services</string>
+    <string name="txt_doctor_s_profile">Doctor`s profile</string>
+    <string name="txt_overview">Overview</string>
+    <string name="txt_about_doctor">About Doctor</string>
+    <string name="txt_registration_no">Registration no</string>
+    <string name="txt_council_name">Council Name</string>
+    <string name="txt_education">Education</string>
+    <string name="txt_clinic">Clinic</string>
+
+
+    <string name="txt_title">Title</string>
+
+    <string name="txt_hospital">Hospital</string>
+    <string name="txt_my_diet_plans_caps">MY DIET PLANS</string>
+    <string name="txt_please_wait_while_loading">Please wait while loading . . .</string>
+    <string name="txt_you_have_no_diet_plans">You have no Diet-plans</string>
+    <string name="txt_diet_id">DIET ID</string>
+    <string name="txt_created_date">Created Date</string>
+    <string name="txt_feedback_caps">FEEDBACK</string>
+    <string name="txt_i_felt_really">I felt, really…</string>
+
+    <string name="txt_feedback">Feedback</string>
+    <string name="action_submit">Submit</string>
+    <string name="txt_my_reports_caps">MY REPORTS</string>
+    <string name="txt_you_have_no_reports">You have no reports</string>
+    <string name="txt_cbc_esr">CBC+ESR</string>
+    <string name="txt_report_id_caps">REPORT ID</string>
+    <string name="txt_ref_by">Ref By</string>
+    <string name="txt_pathology">Pathology</string>
+    <string name="txt_report_date">Report Date</string>
+    <string name="txt_status">Status</string>
+    <string name="txt_complete">Complete</string>
+    <string name="txt_appointment_caps">APPOINTMENT</string>
+    <string name="txt_my_doctors_caps">MY DOCTORS</string>
+    <string name="txt_search_caps">SEARCH</string>
+    <string name="txt_app_id">APP-ID</string>
+    <string name="txt_appointments">Appointments</string>
+    <string name="txt_clinic_name">Clinic Name</string>
+    <string name="txt_reason">Reason</string>
+    <string name="txt_you_have_no_appointments">You have no appointments</string>
+    <string name="txt_select_doctor">Select Doctor</string>
+    <string name="txt_time">Time</string>
+    <string name="txt_select_hospital">Select Hospital</string>
+    <string name="txt_book_caps">BOOK</string>
+    <string name="txt_completed_appointments">Completed Appointments</string>
+    <string name="txt_you_have_no_prescriptions">You have no prescriptions</string>
+    <string name="txt_date_of_birth">Date of Birth</string>
+    <string name="txt_first_name">First Name</string>
+    <string name="txt_view_more">View More..</string>
+    <string name="txt_your_notifications">Your Notifications</string>
+    <string name="txt_reschedule_appointments_caps">RESCHEDULE APPOINTMENTS</string>
+    <string name="txt_hospital_name">Hospital Name</string>
+    <string name="txt_search_doctors">Search doctors</string>
+    <string name="txt_more_detail">more detail…</string>
+    <string name="txt_settings_caps">SETTINGS</string>
+    <string name="txt_forgot_password">Forgot Password</string>
+    <string name="txt_sign_in">Sign In</string>
+    <string name="txt_sign_up">Sign Up</string>
+    <string name="txt_mobile_no">Mobile No</string>
+    <string name="txt_password">Password</string>
+
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_one_time_password_otp">One Time Password (OTP)</string>
+    <string name="txt_submit_caps">SUBMIT</string>
+    <string name="txt_we_will_send_one_type_password_otp_to_your_mobile_number_to_reset_password">We will send One Time Password (OTP) to your mobile number to reset password .</string>
+
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_request_otp">REQUEST OTP</string>
+    <string name="txt_update_password">UPDATE PASSWORD</string>
+    <string name="txt_which_is_the_subsidary_company_of_alphabet">Which is the subsidiary company of Alphabet ?</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_address">Address</string>
+    <string name="txt_pincode">Pincode</string>
+    <string name="txt_state">State</string>
+
+
+    <string name="hint_medicine_name">Medicine Name</string>
+    <string name="hint_doctor_name">Doctor Name</string>
+    <string name="hint_search_doctor_message">Search Doctor/Message</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_time">Time</string>
+    <string name="hint_select_hospital">Select Hospital</string>
+    <string name="hint_enter_name">Enter Name</string>
+    <string name="hint_enter_number">Enter Number</string>
+    <string name="hint_enter_reason">Enter Reason</string>
+    <string name="hint_old_password">Old Password*</string>
+    <string name="hint_new_password">New Password*</string>
+    <string name="hint_repeat_password">Repeat Password*</string>
+    <string name="hint_mobile_no">Mobile no</string>
+    <string name="hint_in_cm">in cm</string>
+    <string name="hint_in_kg">in kg</string>
+    <string name="hint_value">Value</string>
+    <string name="hint_id_doctor_or_date">Id , Doctor or Date…</string>
+    <string name="hint_write_your_experience">Write your Experience</string>
+    <string name="hint_id_name_or_ref_by">Id , Name or Ref.By…</string>
+    <string name="hint_enter_mobile_no">Enter Mobile No</string>
+    <string name="hint_doctor_or_clinic_or_date">Doctor or Clinic or Date …</string>
+    <string name="hint_contact_number">Contact Number</string>
+    <string name="hint_doctor_clinic">Doctor,Clinic . . .</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_birthdate_dd_mm_yyyy">Birthdate (dd/mm/yyyy)</string>
+    <string name="hint_enter_otp">Enter OTP</string>
+    <string name="hint_first_name">First Name ..</string>
+    <string name="hint_doctor_or_ep_id_or_date">Doctor or Ep-Id or Date …</string>
+
+
+    <string name="toast_check_internet_connection">Check Your Internet Connection..@</string>
+    <string name="toast_input_value">Please input value !</string>
+    <string name="toast_enter_something">Please enter something !</string>
+    <string name="toast_select_file_firdt">Please select file first !!</string>
+    <string name="toast_try_again">Please try again !!</string>
+    <string name="toast_invalid_file">Invalid file !!</string>
+    <string name="toast_logout_faild_try_after_some_time">Can\'t logout..Please do after sometime..</string>
+    <string name="toast_no_data_found_for_this_month">No data found for this month</string>
+    <string name="toast_select_date">Please Select Date</string>
+    <string name="toast_select_time">Please Select Time</string>
+    <string name="toast_enter_valid_number">Please enter valid number !</string>
+    <string name="toast_enter_relation_name">Please enter relation name !</string>
+    <string name="toast_pdf_cant_be_open">PDF cannot be opened</string>
+    <string name="toast_no_internet_connection">No Internet Connection</string>
+    <string name="toast_cant_cancel_apoointment">You cannot cancel this Appointment</string>
+    <string name="toast_cant_reschedule_apoointment">You cannot reschedule this Appointment</string>
+    <string name="toast_save_close_all_selected_data">Please Save/Close all selected data</string>
+    <string name="toast_try_again_after_sometime">Please Try Again After Some Time..!!</string>
+    <string name="toast_select_birth_date">Select Your Birthdate . . .</string>
+    <string name="toast_password_mismatch"><![CDATA[Confirm password && Password Should match . . .]]></string>
+    <string name="toast_confirm_password_cant_blank">Confirm password cannot blank . . .</string>
+    <string name="toast_password_cant_blank">Password cannot blank . . .</string>
+    <string name="toast_enter_name">Enter Name . . .</string>
+    <string name="toast_enter_passwrord_properly">Enter Password Properly..</string>
+    <string name="toast_incorrect_otp">Incorrect OTP . . .</string>
+    <string name="toast_enter_another_mobile_no">Please Enter another Mobile no..!!</string>
+    <string name="toast_enter_valid_verification_code">ENTER VALID VERIFICATION CODE</string>
+    <string name="toast_invalid_date">Invalid date !</string>
+    <string name="toast_select_rating_first">Select your Rating First</string>
+    <string name="toast_something_wrong_try_again">Something Wrong.. please try again..</string>
+    <string name="toast_enter_valid_name">Enter valid Name !</string>
+    <string name="toast_enter_valid_mobile">Enter valid Mobile !</string>
+    <string name="toast_selecte_time_first">Select Time First…</string>
+    <string name="toast_no_doctor_found">No Doctor found !</string>
+    <string name="toast_invalid_mobile_no">Invalid Mobileno . . .</string>
+    <string name="toast_invalid_otp">Invalid OTP pin . . .</string>
+    <string name="toast_otp_save_again">Enter OTP and save again . . .</string>
+    <string name="toast_somthing_wrong_in_otp_generation">Something Wrong in OTP Generation . . .</string>
+    <string name="toast_something_wrong_with_otp">Something Wrong with OTP . . .</string>
+    <string name="toast_old_and_new_password_cant_be_same">old password and new password cannot be same</string>
+    <string name="toast_confirm_password_not_match">confirm Password not matched</string>
+    <string name="toast_enter_value_below_213_cm">please enter value between 91.43 and 213 CM</string>
+    <string name="toast_enter_valid_value">please enter valid value !</string>
+
+
+    <string name="snackbar_cant_make_call">CAN`T MAKE CALL....</string>
+    <string name="snackbar_select_date">Please Select Date…</string>
+    <string name="snackbar_invalid_date">Invalid Date !</string>
+    <string name="snackbar_enter_valid_credentials">Enter Valid Credentials</string>
+    <string name="snackbar_invalid_mobile_no">Invalid Mobileno</string>
+    <string name="snackbar_enter_verification_code">ENTER VERIFICATION CODE</string>
+    <string name="snackbar_number_not_registered">Number is not Registered..!</string>
+
+
+    <string name="txt_ep_id">EP-ID</string>
+    <string name="txt_welcome_to_mobihealth">Welcome to Mobihealth !</string>
+
+
+    <string name="txt_dialog_saved">Saved !</string>
+    <string name="txt_dialog_review_submitted">Review Submitted</string>
+    <string name="txt_dialog_error_in_submitting_review">Error in Submitting Review</string>
+    <string name="txt_dialog_are_you_sure">Are you sure?</string>
+    <string name="txt_dialog_want_to_reschedule">You Want To Reschedule ?</string>
+    <string name="txt_dialog_error_in_cancelling_appointment">Error in Canceling Appointment</string>
+    <string name="txt_dialog_you_want_to_book_appointment">You Want to Book Appointment !</string>
+    <string name="txt_dialog_appointment_booked">Appointment Booked</string>
+    <string name="txt_dialog_appointment_not_booked">Appointment Not Booked</string>
+    <string name="txt_dialog_already_registered">Already Registered . . .</string>
+    <string name="txt_dialog_mobile_number_updated">Mobile Number Updated . . .</string>
+    <string name="txt_dialog_updation_failed">Updation fail . . .</string>
+    <string name="txt_dialog_updated_successfully">Updated Successfully..</string>
+    <string name="txt_dialog_fail_to_update">Fail to update ..!!</string>
+    <string name="txt_dialog_save_it">Save it</string>
+    <string name="txt_dialog_saved_profile">Your have saved Profile</string>
+
+    <string name="error_invalid_mobile_number">Invalid mobile no</string>
+    <string name="error_enter_valid_value">please enter valid value !</string>
+    <string name="error_enter_old_password">please enter old password !</string>
+    <string name="error_enter_new_password">please enter new password !</string>
+
+    <string name="hint_listening">Listening...</string>
+    <string name="hint_boy_name">Boy\'s name</string>
+    <string name="hint_relative_name">Relative\'s name</string>
+    <string name="hint_girl_name">Girl\'s name</string>
+    <string name="hint_relative_number">Relative\'s number</string>
+    <string name="txt_skip">Skip</string>
+
+    <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_completed">Completed</string>
+
+
+    <!---->
+
+
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+
+
+    <string name="txt_file_no">File No.</string>
+
+    <string name="txt_your_care_takers">Your CareTakers</string>
+    <string name="txt_you_are_caretaker_of">You Are CareTaker Of</string>
+    <string name="txt_confirmation_not_given">Confirmation Not Given</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_skipped">Skipped</string>
+    <string name="txt_no_missed_history_for_this_doctor">No missed history available for this doctor</string>
+    <string name="txt_no_adherence_history_for_this_doctor">No adherence history available for this doctor</string>
+    <string name="txt_you_were_not_adding_any_medicine">You were not adding any medicine(s)</string>
+    <string name="txt_nc">N.C</string>
+
+    <!--Already translated-->
+
+    <string name="txt_age">Age</string>
+
+    <!--Already translated-->
+
+    <string name="txt_more_options">More Options</string>
+    <string name="txt_less_options">Less Options</string>
+    <string name="txt_missed">Missed</string>
+    <string name="txt_morning">Morning</string>
+    <string name="txt_evening">Evening</string>
+    <string name="txt_night">Night</string>
+
+
+    <string name="txt_dialog_feedbcak_submitted_successfully">Your Feedback successfully submitted !</string>
+    <string name="txt_dialog_feedback_not_submitted">Your Feedback Not submitted !</string>
+    <string name="txt_dialog_request_sent">Request Sent</string>
+    <string name="txt_dialog_removed_successfully">Removed Successfully</string>
+    <string name="txt_dialog_not_removed">Not Removed</string>
+    <string name="txt_dialog_want_to_delete_medicine">Your want to delete this medicine ?</string>
+    <string name="txt_dialog_your_medicine_saved">Your medicine saved !</string>
+    <string name="txt_dialog_medicine_not_saved">Your medicine not saved, please check !</string>
+    <string name="txt_dialog_added_one_medicine">You have added one medicine !</string>
+    <string name="txt_dialog_fail_to_add_medicine">Fail to add medicine !</string>
+    <string name="txt_dialog_medicine_successfully_deleted">Medicine Successfully Deleted !</string>
+    <string name="txt_dialog_submitted_successfully">Submitted successfully</string>
+    <string name="txt_dialog_feedback_fail">Feedback Fail...</string>
+    <string name="toast_no_question">No Question</string>
+    <string name="toast_no_pills_found">No pills found !</string>
+    <string name="toast_fail_to_submit">Fail to Submit</string>
+    <string name="toast_successfully_submitted">Successfully Submited</string>
+    <string name="toast_no_pills">No pills !</string>
+    <string name="toast_add_medicine">Please add medicine !</string>
+    <string name="toast_enter_no_of_days">please enter noOfDays !</string>
+    <string name="toast_turn_on_reminder">please turn on Reminder !</string>
+    <string name="error_enter_value">please enter value</string>
+    <string name="error_enter_speciality">please enter speciality !</string>
+    <string name="error_enter_10_digit_number">enter 10 digit number !</string>
+    <string name="error_invalid_value">Invalid value !</string>
+    <string name="snackbar_enter_name">Please Enter Name</string>
+    <string name="snackbar_enter_phone_number">Please Enter PhoneNo</string>
+    <string name="snackbar_invalid_phone_number">Invalid PhoneNo</string>
+    <string name="snackbar_self_caretaker_not_possible">Self Caretaker Not possible !!</string>
+    <string name="txt_notification_new_notification">You have new notification</string>
+
+
+    <string name="hint_above_file_for_what">Above file for what</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_above_file_description">Above file description</string>
+    <string name="hint_amount_of_meds">Amount of meds</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_doctor_s_name">Doctor\'s Name</string>
+    <string name="hint_e_g_100_00">e.g 100.00</string>
+    <string name="hint_e_g_10">e.g 10</string>
+    <string name="hint_enter_contact_number">Enter Contact Number . . .</string>
+    <string name="hint_general_instructions">General instructions</string>
+    <string name="hint_i_e_10">i.e 10</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_number">Number</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_speciality_e_g_diabetologist">Speciality [ e.g Diabetologist ]</string>
+    <string name="hint_title">Title . . .</string>
+    <string name="hint_type_medicine_name">Type medicine name</string>
+    <string name="hint_your_answer">your answer</string>
+    <string name="hint_enter_value">Enter value</string>
+
+
+    <string name="txt_bds">BDS</string>
+    <string name="txt_appointment_detail">APPOINTMENT DETAIL</string>
+    <string name="txt_a_medfriend_is_a_family_member_or_friend_that_helps_you_remember_to_take_your_meds_in_case_you_forgot">A Medfriend is a family member or friend that helps you remember to take your meds in case you forgot.</string>
+    <string name="txt_add_caretaker">Add CareTaker</string>
+    <string name="txt_appointment">Appointment</string>
+    <string name="txt_advance_instruction">Advance Instruction</string>
+    <string name="txt_awesome">Awesome !</string>
+    <string name="txt_answer_given">Answer given</string>
+    <string name="txt_afternoon">AfterNoon</string>
+    <string name="txt_add_medication">Add medication</string>
+    <string name="txt_all_adherence_history">All Adherence History</string>
+    <string name="txt_adherence_summary_history">Adherence Summary History</string>
+    <string name="txt_adherence_history">Adherence History</string>
+    <string name="txt_no_adherence_history_available">No Adherence history available</string>
+    <string name="txt_adherence_history_added_by_you">Adherence History Added By You</string>
+    <string name="txt_add_new_medfriend">Add new Medfriend</string>
+    <string name="txt_after_food">after food</string>
+    <string name="txt_afternoon1">Afternoon</string>
+    <string name="txt_advance_instructions">Advance Instructions</string>
+    <string name="txt_be_caretaker">Be CareTaker</string>
+    <string name="txt_before_food">Before Food</string>
+    <string name="txt_book_appointments_caps">BOOK APPOINTMENTS</string>
+    <string name="txt_book_appointment">BOOK APPOINTMENT</string>
+    <string name="txt_with_food">with food</string>
+    <string name="txt_b_id_215">B-Id 215</string>
+    <string name="txt_completed_appointments_caps">COMPLETED APPOINTMENTS</string>
+    <string name="txt_change_user_settings_caps">CHANGE USER SETTINGS</string>
+    <string name="txt_call_caps">CALL</string>
+    <string name="txt_care_taker">CARE TAKER</string>
+    <string name="txt_calendar">Calendar</string>
+    <string name="txt_city_caps">CITY</string>
+    <string name="txt_change_mobile_no_caps">CHANGE MOBILE NO</string>
+    <string name="txt_clinic_info">CLINIC INFO</string>
+    <string name="txt_congratulation_all_caught_up">Congratulation , All Caught Up..!!</string>
+    <string name="txt_add_doctor">Add Doctor</string>
+    <string name="txt_clear">Clear</string>
+    <string name="txt_critical">Critical</string>
+    <string name="txt_medicine_adherence">Medicine Adherence</string>
+    <string name="txt_shared">Shared</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_change_password_caps">CHANGE PASSWORD</string>
+    <string name="txt_delete_caps">DELETE</string>
+    <string name="txt_dose">Dose</string>
+    <string name="txt_dosage">Dosage</string>
+    <string name="txt_doctor">Doctor</string>
+
+    <string name="txt_direction_caps">DIRECTION</string>
+    <string name="lbl_date">Date :</string>
+    <string name="txt_dr_name">Dr Name</string>
+    <string name="txt_doctor_wise">Doctor wise</string>
+    <string name="txt_missed_adherence_history">Missed Adherence History</string>
+    <string name="txt_no_missed_history_available">No missed history available</string>
+    <string name="txt_no_adherence_summary_available">No Adherence summary available</string>
+    <string name="txt_diacare_diagnostic">DiaCare Diagnostic</string>
+    <string name="txt_everyday">Everyday</string>
+    <string name="txt_edit">edit</string>
+    <string name="txt_enter_the_amount_of_meds_you_currently_have_to_get_a_refill_reminder">Enter the amount of meds you currently have to get a refill reminder</string>
+    <string name="txt_refill_reminder">Refill reminder</string>
+    <string name="txt_when_i_have">When I have</string>
+    <string name="txt_meds_remaining">meds remaining</string>
+    <string name="txt_what_time">What time ?</string>
+    <string name="txt_today">Today</string>
+    <string name="txt_give_confirmation">Give Confirmation</string>
+    <string name="lbl_feedback">feedback :</string>
+    <string name="txt_you_do_not_have_any_instruction_s">You do not have any instruction(s)</string>
+    <string name="txt_instruction_confirmation">Instruction Confirmation</string>
+    <string name="lbl_food_instruction">Food Instruction :</string>
+    <string name="txt_instructions">Instructions</string>
+    <string name="txt_save">Save</string>
+    <string name="txt_tap_to_set">tap to set</string>
+    <string name="lbl_medication_dose">Medication dose :</string>
+    <string name="txt_no_of_days">No Of Days</string>
+    <string name="txt_schedule">Schedule</string>
+    <string name="txt_take_1_caps">TAKE 1</string>
+    <string name="txt_reminder_times">Reminder Times</string>
+    <string name="txt_medication_name">Medication Name</string>
+    <string name="lbl_feedback_given">feedback given :</string>
+    <string name="txt_taken">Taken</string>
+    <string name="lbl_please_select_feedback">Please select feedback :</string>
+    <string name="txt_pending">Pending</string>
+    <string name="txt_update_caps">UPDATE</string>
+    <string name="txt_medicine_confirmation">Medicine Confirmation</string>
+    <string name="txt_feedback_history"><![CDATA[Feedback history >>]]></string>
+    <string name="txt_generic_name">Generic Name</string>
+    <string name="txt_medicine_name">Medicine Name</string>
+    <string name="txt_your_are_showing_pills_of_24_nov_2017">Your are showing pills of 24 Nov 2017</string>
+    <string name="txt_no_pills_found">No Pills Found</string>
+    <string name="txt_general_physician">General Physician</string>
+    <string name="txt_greeting">Greeting</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt__0_appointments">0 Appointments</string>
+    <string name="txt__0_priscriptions">0 Priscriptions</string>
+    <string name="txt__0_packages">0 Packages</string>
+    <string name="txt__0_reports">0 Reports</string>
+    <string name="txt_send">Send</string>
+    <string name="txt_how_many_meds_do_you_want_remaining_before_you_get_a_refill_reminder">How many meds do you want remaining before you get a refill reminder ?</string>
+    <string name="txt_ok">ok</string>
+    <string name="txt_reschedule_caps">RESCHEDULE</string>
+    <string name="txt_www_mobihealth_in">www.mobihealth.in</string>
+    <string name="txt_disease">Disease</string>
+    <string name="txt_blood_group">Blood Grouup</string>
+    <string name="txt_profession">Profession</string>
+    <string name="txt_last_rbs">Last RBS (random blood sugar)</string>
+    <string name="txt_last_time_foot_checkup_done">Last time foot checkup done</string>
+    <string name="hint_last_rbs">Last RBS</string>
+    <string name="txt_procedure">Procedure</string>
+    <string name="txt_last_echo_ecg">Last ECHO, ECG</string>
+    <string name="txt_leave_blank_if_son_dont_have_mobile">Leave blank if Son don\'t have Mobile</string>
+    <string name="txt_leave_blank_if_daughter_dont_have_mobile">Leave blank if Daughter don\'t have Mobile</string>
+    <string name="snackbar_enter_full_name">Please Enter Full Name</string>
+    <string name="snackbar_lbl_action">Action</string>
+    <string name="snackbar_enter_full_address">Please Enter Full Address</string>
+    <string name="snackbar_enter_city">Please Enter City</string>
+    <string name="snackbar_enter_state">Please Enter State</string>
+    <string name="snackbar_enter_pincode">Please Enter Pincode</string>
+    <string name="snackbar_select_blood_group">Please Select Blood Group</string>
+    <string name="snackbar_select_gender">Please Select Gender</string>
+    <string name="snackbar_enter_emergancy_contact">Please Enter Emergency Contact</string>
+    <string name="snackbar_enter_valid_contact">Please Enter Valid Contact</string>
+    <string name="snackbar_enter_profession">Please Enter Profession</string>
+    <string name="txt_what_is_full_name">What is your full name ?</string>
+    <string name="hint_enter_full_name">Enter Full Name</string>
+    <string name="hint_enter_address">Enter Address</string>
+    <string name="hint_enter_emergancy_number">Enter Contact Number</string>
+    <string name="hint_enter_profession">Enter Profession</string>
+    <string name="txt_what_is_address">What is your address ?</string>
+    <string name="txt_what_is_emergancy_contact">Who is your emergency contact ?</string>
+    <string name="txt_what_is_profession">What is your profession ?</string>
+    <string name="txt_select_your_procedure">Select your procedure (e.g. Type1, Type2 etc.)</string>
+    <string name="txt_last_time_echo_ecg">Last time ECHO, ECG done ?</string>
+    <string name="txt_last_visit_doctor_detail">Last visited doctor details</string>
+    <string name="hint_doctor_contact">Contact Number</string>
+    <string name="hint_last_visited_date">Last visited date</string>
+    <string name="snackbar_select_last_visited_date">Please Select Visited Date</string>
+    <string name="snackbar_enter_doctor_name">Please Enter Doctor Name</string>
+    <string name="snackbar_enter_doctor_number">Please Enter Doctor Number</string>
+    <string name="snackbar_enter_valid_number">Please Enter Valid Number</string>
+    <string name="txt_select_your_disease">Please select your disease</string>
+    <string name="hint_select_disease">Select Disease</string>
+    <string name="hint_select_procedure">Select Procedure</string>
+    <string name="txt_what_is_your_last_rbs">What is your Last RBS (random blood sugar) ?</string>
+    <string name="txt_last_time_got_hb1ac">Last time you got Hb1Ac done ?</string>
+    <string name="txt_last_time_got_creatinine">Last time got creatinine done ?</string>
+    <string name="txt_last_time_got_eye_checkup">Last time Eye checkup done ?</string>
+    <string name="txt_last_time_got_foot_checkup">Last time foot checkup done ?</string>
+    <string name="txt_last_visited_doctor_details">Last visited doctor details</string>
+    <string name="txt_submit_details">Submit Details</string>
+    <string name="txt_next">Next</string>
+    <string name="txt_feet">feet</string>
+    <string name="txt_inches">inches</string>
+    <string name="txt_ins_conf_history">Ins conf history</string>
+    <string name="txt_instruction_followed_11">Instruction Followed - 11</string>
+    <string name="txt_instruction">Instruction</string>
+    <string name="txt_invite_medfriend">Invite Medfriend</string>
+    <string name="txt_languages">Languages</string>
+    <string name="txt_my_prescription">My Prescription</string>
+    <string name="txt_my_appointments_caps">MY APPOINTMENTS</string>
+    <string name="txt_my_prescriptions_caps">MY PRESCRIPTIONS</string>
+    <string name="txt_medfriend">Medfriend</string>
+    <string name="txt_mg_dl">mg/dL</string>
+    <string name="txt_morning_07_00_am">MORNING(07:00 AM)</string>
+    <string name="txt_n_c">N.C</string>
+    <string name="txt_medicine_wise">Medicine wise</string>
+    <string name="txt_n_a">N.A</string>
+    <string name="txt_no_food_instructions">no food instructions</string>
+    <string name="txt_no_feedback">No feedback</string>
+    <string name="txt_not_conf">Not Conf</string>
+    <string name="txt_normal">NORMAL</string>
+    <string name="txt_prescription_refill">Prescription Refill</string>
+    <string name="txt_pillbox">pillbox</string>
+    <string name="txt_preferred_communication_mode">Preferred Communication Mode</string>
+    <string name="txt_preferred_language">Preferred Language</string>
+    <string name="txt_remove">Remove</string>
+    <string name="txt_search_doctor_caps">SEARCH DOCTOR</string>
+    <string name="txt_take_1">take 1</string>
+    <string name="txt_thank_you_for_registring">Thank You for registring.</string>
+    <string name="txt_total_instruction_5">Total Instruction - 5</string>
+    <string name="txt_what_is_your_weight">What is your weight ?</string>
+    <string name="txt_in_kgs">(in kgs)</string>
+    <string name="txt_what_is_your_height">What is your height ?</string>
+    <string name="txt_what_is_your_full_name">What is your full name ?</string>
+    <string name="lbl_your_caretakers">Your CareTakers :</string>
+    <string name="txt_you_were_not_adding_any_medicine_s">You were not adding any medicine(s)</string>
+    <string name="txt_what_is_your_blood_group">What is your blood group ?</string>
+    <string name="hint_enter_emergancy_name">Enter Contact Name</string>
+    <string name="txt_do_it_later"><u>Do it later</u></string>
+    <string name="txt_your_are_diabetic_patient_please_fill_form">You are diabetic patient, please fillup the next form to update your health records.</string>
+    <string name="txt_your_are_cardiac_patient_please_fill_form">You are cardiac patient, please fillup the next form to update your health records.</string>
+    <string name="hint_hb1ac_value">Result (mmol/mol)</string>
+    <string name="hint_creatinine_value">Result (mg/dL)</string>
+    <string name="txt_what_is_dob">What is your Date of birth ?</string>
+    <string name="toast_appointment_already_booked_for_user_on_date_with_doctor">You already booked an appointment for the number with %1$s</string>
+    <string name="snackbar_enter_emergancy_contact_name">Please enter emergency_contact_name</string>
+    <string name="txt_user_profile">User Profile</string>
+    <string name="txt_emergancy_contact">Emergency Contact</string>
+    <string name="txt_last_hb1ac">Last Hb1Ac</string>
+    <string name="txt_last_creatinine">Last Creatinine</string>
+    <string name="no_disease_found">No Disease Found</string>
+    <string name="txt_what_is_email">What is your email id ?</string>
+    <string name="txt_what_is_area_pincode">What is your area pincode ?</string>
+    <string name="txt_what_is_state">Enter State Name.</string>
+    <string name="txt_what_is_city">Enter City Name .</string>
+    <string name="txt_what_is_your_gender">What is your gender ?</string>
+    <string name="snackbar_enter_email">Please enter email</string>
+    <string name="snackbar_invalid_email">Invalid Email</string>
+    <string name="txt_confirm_here">Confirm Here</string>
+    <string name="txt_why_vaccine_new">Why Vaccine ?</string>
+    <string name="view_babys_vaccines">View Vaccines</string>
+    <string name="lbl_dialog_confirm">Confirm !</string>
+    <string name="lbl_dialog_delete_confirmation">Are you sure you want to delete ?</string>
+    <string name="lbl_dialog_button_yes">Yes</string>
+    <string name="lbl_dialog_button_no">No</string>
+    <string name="lbl_dialog_button_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="lbl_time">Time</string>
+    <string name="lbl_dialog_button_update">Update</string>
+    <string name="lbl_dialog_alert">Alert</string>
+    <string name="lbl_dialog_version_update_message">You are using old verion of the application. Please update the app for better experience.</string>
+    <string name="snackbar_change_time">Please update time</string>
+    <string name="lbl_dialog_logout">Are you sure you want to logout?</string>
+    <string name="hint_enter_email">Enter email</string>
+    <string name="hint_enter_city_name">Enter City</string>
+    <string name="hint_enter_state">Enter State</string>
+    <string name="hint_enter_pincode">Enter Pincode</string>
+    <string name="snackbar_select_desease">Please select desease</string>
+    <string name="txt_no_notification">You have not received notification yet.</string>
+    <string name="error_enter_acceptable_value">This is unacceptable value</string>
+    <string name="txt_copyright_mobihealth">© mobihealth.in</string>
+    <string name="txt_update_medicine">Update Medication</string>
+    <string name="morning_reminder">Morning Reminder</string>
+    <string name="afternoon_reminder">Afternoon Reminder</string>
+    <string name="evening_reminder">Evening Reminder</string>
+    <string name="inshort_share_message">Let your health be more priority, Download MobiHealth.</string>
+
+    <string name="txt_first_step_to_secure_your_son_babo_s_future_is_to_vaccinate">First step to secure your  %1$s %2$s future is to vaccinate.</string>
+    <string name="food_information">Food Information</string>
+    <string name="points_to_remember">POINTS TO REMEMBER</string>
+    <string name="start_breastfeeding_immediately_after_birth_within_1_hour_baby_should_be_put_to_the_mother_s_breast">Start breastfeeding immediately after birth – within 1 hour. Baby should be put to the mother\'s breast.</string>
+    <string name="txt_vaccine_reminder">Vaccine Reminder</string>
+    <string name="txt_your_baby_s_vaccinations">Your Baby\'s vaccinations</string>
+    <string name="txt_have_you_secured_his_future">Have you secured his future?</string>
+
+
+    <string name="lbl_welcome_emotional_connect">Emotional connect</string>
+    <string name="lbl_welcome_vaccine_importance">Importance of vaccine</string>
+    <string name="lbl_welcome_memories">Memories and child</string>
+    <string name="lbl_welcome_growth_chart">Growth Chart</string>
+    <string name="lbl_welcome_health_in_shorts">Health In Shorts</string>
+
+    <string name="lbl_welcome_emotional_connect_desc">Talks about emotions and care. I am super dad, I am super mom.</string>
+    <string name="lbl_welcome_vaccine_importance_desc">Importance of vaccine and why on time vaccination is important.</string>
+    <string name="lbl_welcome_memories_desc">Talk about maintaining memories of your child.</string>
+    <string name="lbl_welcome_growth_chart_desc">Understanding growth chart is as important as getting best policy for your child.</string>
+    <string name="lbl_welcome_health_in_shorts_desc">Get all news, innovation, research, article at one place.</string>
+
+    <string name="lbl_dialog_successful">Successful</string>
+    <string name="lbl_dialog_fail">Fail !</string>
+
+    <!-- The default letter tile text size -->
+    <dimen name="tile_letter_font_size">17sp</dimen>
+    <!-- The deafult tile size -->
+    <dimen name="letter_tile_size">32dp</dimen>
+    <!-- /LetterTileProvider -->
+
+    <!-- LetterTileProvider -->
+    <!-- All of the possible tile background colors -->
+    <array name="letter_tile_colors">
+        <item>#f16364</item>
+        <item>#f58559</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#67bf74</item>
+        <item>#59a2be</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+
+
+    //Agora
+    <string name="label_send">Send</string>
+    <string name="msg_say_something">Say something…</string>
+    <string name="msg_connection_error">Connection error, please check the network settings or make sure channel name/access token are valid</string>
+    // DO NOT TRANSLATE
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+    <string name="txt_no_data_available">No Data Available</string>
+    <string name="action_book">Book</string>
+    <string name="txt_online_consult">Online Consult</string>
+    <string name="txt_tele_appointment">Tele-Appointment</string>
+    <string name="txt_confirm_and_pay"><![CDATA[Confirm & Pay]]></string>
+    <string name="txt_join">Join</string>
+
+
+    //AGORA
+    <!--    <string name="agora_app_id" translatable="false">a96d29a8e8dd455783b450bafc5814a6</string> //Jitesh-->
+    <string name="agora_app_id" translatable="false">c3af81c554224dd98557817ce14b1055</string>
+    //Mahesh
+    <!--    <string name="agora_app_id" translatable="false">6e536205dba34352a68f044f4e2bb55e</string> //Keval-->
+
+
+    <!-- Please leave it if not enable App Certificate -->
+    <!-- You can generate a temporary token at https://dashboard.agora.io/projects -->
+    <!--    <string name="agora_access_token" translatable="false">006a96d29a8e8dd455783b450bafc5814a6IAAXMwF3UE/NAIpTXPGBstXe3YEfRfrpQ+i+Jl2ZjnHiEiLfU64AAAAAEADOpjO6VrV1XwEAAQBWtXVf</string>-->
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string name="txt_my_lab_test_caps">MY LAB TESTS</string>
+    <string name="lbl_dialog_video_end">Are you sure you want to leave this appointment?</string>
+    <string name="video_notification_message">Video Call Ongoning ...</string>
+    <string name="lbl_dialog_delete_lab_report">Are you sure you want to delete this report?</string>
+    <string name="txt_no_lab_report_found">No report assigned to you yet.</string>
+    <string name="txt_downloading">Downloading</string>
+    <string name="txt_resume">Resume</string>
+    <string name="book_new_appointment">Please book a new appointment</string>
+    <string name="drawer_waiting_room">Waiting Room</string>
+    <string name="drawer_contact_us">Contact Us</string>
+    <string name="drawer_walkthrough">WalkThrough</string>
+    <string name="txt_connect_with_us">Connect with us</string>
+    <string name="txt_about_us_text">We are curating health related news from multiple sources. Our aim is to create health awareness and improve health education. We are giving proper backlink to original source. In case, you feel content is infringing any copy right issue or representation is not right. Please feel free to contact us.</string>
+    <string name="txt_about_us">About Us</string>
+    <string name="support_mail">support@fluvina.com</string>
+    <string name="support_phone">+91-79-40050192</string>
+    <string name="txt_send_us_message">Send us a message</string>
+    <string name="txt_how_can_help">How can we help you today?</string>
+    <string name="lbl_dialog_failed_try_again">Failed, Try Again</string>
+    <string name="lbl_dialog_query_send_successfully">Query send successfully</string>
+    <string name="error_enter_email">Please enter email</string>
+    <string name="error_enter_valid_email">Please enter valid email</string>
+    <string name="error_enter_valid_phone">Please enter valid phone</string>
+    <string name="error_enter_message">Please enter message</string>
+    <string name="error_enter_phone">Please enter phone</string>
+    <string name="drawer_humm">HUMM</string>
+    <string name="txt_login_sign_up">Login / Sign Up</string>
+    <string name="txt_my_health">My Health</string>
+    <string name="txt_filter_all">All</string>
+    <string name="txt_filter_prescriptions">Prescriptions</string>
+    <string name="txt_filter_upcoming_appointment">Upcoming Appointments</string>
+    <string name="txt_filter_completed_appointment">Completed Appointments</string>
+    <string name="txt_filter_lab_reports">Lab Reports</string>
+    <string name="appo_confirmed">Appointment Confirmed</string>
+    <string name="appo_pending">Confirmation Pending</string>
+    <string name="txt_rx_id">Rx ID</string>
+    <string name="hint_search_doctor">Search doctors by name, number or profession</string>
+    <string name="txt_my_doctors">My Doctors</string>
+    <string name="txt_no_my_doctors">ou have not added any doctors in my doctors list</string>
+    <string name="txt_other_doctors">Other Doctors</string>
+    <string name="txt_no_other_doctors">You have not added any doctors in my doctors list</string>
+    <string name="title_select_doctor">Select Doctor</string>
+    <string name="error_no_doctors_available">No Doctors Available</string>
+    <string name="txt_no_more_doctors">No More Doctors Available to Show</string>
+    <string name="txt_continue">Continue</string>
+    <string name="txt_appointment_reason">Enter your appointment reason</string>
+    <string name="title_appo_reason">Appointment Reason</string>
+    <string name="error_appo_reason">Please select a reason</string>
+    <string name="hint_search_doctors">Search doctors by name, number or profession</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_book_appointment">Book Appointment</string>
+    <string name="prefix_add_new_relation">Add New</string>
+    <string name="dialog_add">Add</string>
+    <string name="txt_male">Male</string>
+    <string name="txt_female">Female</string>
+    <string name="error_select_relation">Please select a relation</string>
+    <string name="error_required">*Required</string>
+    <string name="error_relative_dob">Please select relative date of birth</string>
+    <string name="title_nearby_doctors">Near By Doctors</string>
+    <string name="text_not_updated">Not Updated</string>
+    <string name="title_activity_doctors_nearby">Map</string>
+    <string name="title_activity_maps_demo">Map</string>
+    <string name="txt_at_clinic">At Clinic</string>
+    <string name="hint_select_clinic">Select Clinic</string>
+    <string name="hint_select_appo_time">Select Appointment Time</string>
+    <string name="hint_appo_reason">Enter Appointment Reason</string>
+    <string name="txt_appointment_city">City</string>
+    <string name="txt_enter_city">Enter City</string>
+    <string name="title_appo_summary">Appointment Summary</string>
+    <string name="error_clinic_time">Please select clinic and time</string>
+    <string name="txt_booking_for">Booking For</string>
+    <string name="txt_relative_number">Relative Number</string>
+    <string name="title_humm_filter">Explore</string>
+    <string name="title_insights">Insights</string>
+</resources>

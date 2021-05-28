@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/vMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cv_bc"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        app:cardElevation="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/inshort_dark_color"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llHalfLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/rlBottomQuiz"
+                android:background="@drawable/inshort_curve_background"
+                android:orientation="horizontal" />
+
+            <RelativeLayout
+                android:id="@+id/rlQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/rlBottomQuiz"
+                android:paddingLeft="@dimen/_20sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:paddingBottom="@dimen/_5sdp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:background="@color/cv_bc"
+                    android:orientation="vertical"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    app:cardElevation="@dimen/_5sdp">
+
+                    <RelativeLayout
+                        android:id="@+id/rlTopMedia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                            android:id="@+id/youtube_player_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@+id/txtQuestion" />
+
+                        <TextView
+                            android:id="@+id/txtQuestion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_medium"
+                            android:gravity="center"
+                            android:lineSpacingExtra="@dimen/_5sdp"
+                            android:minLines="2"
+                            android:paddingLeft="@dimen/_8sdp"
+                            android:paddingTop="@dimen/_12sdp"
+                            android:paddingRight="@dimen/_8sdp"
+                            android:paddingBottom="@dimen/_12sdp"
+                            android:text="@string/txt_which_is_the_subsidary_company_of_alphabet"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15ssp" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlBottomQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <LinearLayout
+                    android:id="@+id/linearContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/inshort_color"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_questions"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_200sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.fluvina.hummnew.Custom.MaxHeightRelativeLayout
+                            android:id="@+id/optionLayout1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:paddingTop="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_2sdp"
+                            android:visibility="visible"
+                            app:maxHeightDp="@dimen/_60sdp">
+
+                            <ProgressBar
+                                android:id="@+id/pbAnswer1"
+                                style="@android:style/Widget.ProgressBar.Horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignLeft="@+id/rlOption1"
+                                android:layout_alignTop="@+id/rlOption1"
+                                android:layout_alignRight="@+id/rlOption1"
+                                android:layout_alignBottom="@+id/rlOption1"
+                                android:layout_centerVertical="true"
+                                android:progressDrawable="@drawable/progress_survey_drawable_quiz_new" />
+
+                            <RelativeLayout
+                                android:id="@+id/rlOption1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/_5sdp">
+
+                                <TextView
+                                    android:id="@+id/tvAvgPercentage1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_above="@+id/seekbar1"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="@dimen/_5sdp"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:gravity="center_vertical"
+                                    android:text=""
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@+id/tvAnswer1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_above="@+id/seekbar1"
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:layout_marginRight="@dimen/_5sdp"
+                                    android:layout_toLeftOf="@+id/tvAvgPercentage1"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:gravity="center_vertical"
+                                    android:maxLines="2"
+                                    android:text="5 s"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_11ssp" />
+
+                                <ProgressBar
+                                    android:id="@+id/seekbar1"
+                                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_5sdp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:progressDrawable="@drawable/progress_short_quiz_drawable"
+                                    android:visibility="gone" />
+
+                            </RelativeLayout>
+
+
+                        </com.fluvina.hummnew.Custom.MaxHeightRelativeLayout>
+
+                        <com.fluvina.hummnew.Custom.MaxHeightRelativeLayout
+                            android:id="@+id/optionLayout2"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:paddingTop="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_2sdp"
+                            android:visibility="visible"
+                            app:maxHeightDp="@dimen/_60sdp">
+
+                            <ProgressBar
+                                android:id="@+id/pbAnswer2"
+                                style="@android:style/Widget.ProgressBar.Horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignLeft="@+id/rlOption2"
+                                android:layout_alignTop="@+id/rlOption2"
+                                android:layout_alignRight="@+id/rlOption2"
+                                android:layout_alignBottom="@+id/rlOption2"
+                                android:layout_centerVertical="true"
+                                android:progressDrawable="@drawable/progress_survey_drawable_quiz_new" />
+
+                            <RelativeLayout
+                                android:id="@+id/rlOption2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/_5sdp">
+
+                                <TextView
+                                    android:id="@+id/tvAvgPercentage2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_above="@+id/seekbar2"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="@dimen/_5sdp"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:gravity="center_vertical"
+                                    android:text=""
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@+id/tvAnswer2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_above="@+id/seekbar2"
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:layout_marginRight="@dimen/_5sdp"
+                                    android:layout_toLeftOf="@+id/tvAvgPercentage2"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:gravity="center_vertical"
+                                    android:maxLines="2"
+                                    android:text="5 s"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_11ssp" />
+
+                                <ProgressBar
+                                    android:id="@+id/seekbar2"
+                                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_5sdp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:progressDrawable="@drawable/progress_short_quiz_drawable"
+                                    android:visibility="gone" />
+
+                            </RelativeLayout>
+
+
+                        </com.fluvina.hummnew.Custom.MaxHeightRelativeLayout>
+
+                        <com.fluvina.hummnew.Custom.MaxHeightRelativeLayout
+                            android:id="@+id/optionLayout3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:paddingTop="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_2sdp"
+                            android:visibility="visible"
+                            app:maxHeightDp="@dimen/_60sdp">
+
+                            <ProgressBar
+                                android:id="@+id/pbAnswer3"
+                                style="@android:style/Widget.ProgressBar.Horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignLeft="@+id/rlOption3"
+                                android:layout_alignTop="@+id/rlOption3"
+                                android:layout_alignRight="@+id/rlOption3"
+                                android:layout_alignBottom="@+id/rlOption3"
+                                android:layout_centerVertical="true"
+                                android:progressDrawable="@drawable/progress_survey_drawable_quiz_new" />
+
+                            <RelativeLayout
+                                android:id="@+id/rlOption3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/_5sdp">
+
+                                <TextView
+                                    android:id="@+id/tvAvgPercentage3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_above="@+id/seekbar3"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="@dimen/_5sdp"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:gravity="center_vertical"
+                                    android:text=""
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@+id/tvAnswer3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_above="@+id/seekbar3"
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:layout_marginRight="@dimen/_5sdp"
+                                    android:layout_toLeftOf="@+id/tvAvgPercentage3"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:gravity="center_vertical"
+                                    android:maxLines="2"
+                                    android:text="5 s"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_11ssp" />
+
+                                <ProgressBar
+                                    android:id="@+id/seekbar3"
+                                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_5sdp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:progressDrawable="@drawable/progress_short_quiz_drawable"
+                                    android:visibility="gone" />
+
+                            </RelativeLayout>
+
+                        </com.fluvina.hummnew.Custom.MaxHeightRelativeLayout>
+
+                        <com.fluvina.hummnew.Custom.MaxHeightRelativeLayout
+                            android:id="@+id/optionLayout4"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:paddingTop="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_2sdp"
+                            android:visibility="visible"
+                            app:maxHeightDp="@dimen/_60sdp">
+
+                            <ProgressBar
+                                android:id="@+id/pbAnswer4"
+                                style="@android:style/Widget.ProgressBar.Horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignLeft="@+id/rlOption4"
+                                android:layout_alignTop="@+id/rlOption4"
+                                android:layout_alignRight="@+id/rlOption4"
+                                android:layout_alignBottom="@+id/rlOption4"
+                                android:layout_centerVertical="true"
+                                android:progressDrawable="@drawable/progress_survey_drawable_quiz_new" />
+
+                            <RelativeLayout
+                                android:id="@+id/rlOption4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/_5sdp">
+
+                                <TextView
+                                    android:id="@+id/tvAvgPercentage4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_above="@+id/seekbar4"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="@dimen/_5sdp"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:gravity="center_vertical"
+                                    android:text=""
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@+id/tvAnswer4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_above="@+id/seekbar4"
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:layout_marginRight="@dimen/_5sdp"
+                                    android:layout_toLeftOf="@+id/tvAvgPercentage4"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:gravity="center_vertical"
+                                    android:maxLines="2"
+                                    android:text="5 s"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_11ssp" />
+
+                                <ProgressBar
+                                    android:id="@+id/seekbar4"
+                                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_5sdp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:progressDrawable="@drawable/progress_short_quiz_drawable"
+                                    android:visibility="gone" />
+
+                            </RelativeLayout>
+
+
+                        </com.fluvina.hummnew.Custom.MaxHeightRelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

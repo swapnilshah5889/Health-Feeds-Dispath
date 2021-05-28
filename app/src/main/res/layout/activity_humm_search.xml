@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/llHummSearchContainer"
+    android:orientation="vertical"
+    tools:context=".Activities.HummSearchActivity">
+
+    <!--Search toolbar-->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:elevation="@dimen/_3sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llToolbarLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/ivToolbarLeft"
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:src="@drawable/ic_content_back"
+                app:tint="@color/colorPrimary" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/llToolbarRight"
+            android:layout_toRightOf="@+id/llToolbarLeft"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_5sdp">
+
+            <EditText
+                android:background="@color/transparent"
+                android:layout_weight="1"
+                android:imeOptions="actionSearch"
+                android:paddingStart="@dimen/_5ssp"
+                android:id="@+id/etSearchHumm"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:hint="Search for Humm Articles"
+                android:focusedByDefault="true"
+                android:textColor="@color/Grey8"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:id="@+id/llSearchHumm"
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:padding="@dimen/_7sdp"
+                    android:src="@drawable/search_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:tint="@color/colorPrimary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHummSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
