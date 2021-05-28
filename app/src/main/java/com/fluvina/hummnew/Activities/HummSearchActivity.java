@@ -89,7 +89,7 @@ public class HummSearchActivity extends AppCompatActivity {
             llToolbarLeft.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    finish();
+                    onBackPressed();
                 }
             });
 
@@ -144,13 +144,20 @@ public class HummSearchActivity extends AppCompatActivity {
                 HummSearchModel.Data searchItem = searchList.get(position);
                 String temp = searchItem.getId()+":"+query;
                 MobiBroadcaster.Mobi_HummSearchFeed(temp);
-                finish();
+                onBackPressed();
+
             }
             catch (Exception e){
                 e.printStackTrace();
             }
         }
     };
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(MobiConstants.ANIM_IN,MobiConstants.ANIM_OUT);
+    }
 
     //API Calls
 

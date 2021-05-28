@@ -257,6 +257,7 @@ public class Splashscreen extends AppCompatActivity {
                     Intent intent = new Intent(Splashscreen.this, MainActivity.class);
                     intent.putExtra("isFromSplash", true);
                     startActivity(intent);
+                    overridePendingTransition(MobiConstants.ANIM_IN,MobiConstants.ANIM_OUT);
                     finish();
                     new Handler().postDelayed(new Runnable() {
                         public void run() {
@@ -268,6 +269,7 @@ public class Splashscreen extends AppCompatActivity {
                     Intent i = new Intent(Splashscreen.this, MainActivity.class);
                     i.putExtra("isFromSplash", true);
                     startActivity(i);
+                    overridePendingTransition(MobiConstants.ANIM_IN,MobiConstants.ANIM_OUT);
                     finish();
                 }
             } else {
@@ -290,8 +292,10 @@ public class Splashscreen extends AppCompatActivity {
                             final String appPackageName = getPackageName(); // getPackageName() from Context or Activity object
                             try {
                                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+                                overridePendingTransition(MobiConstants.ANIM_IN,MobiConstants.ANIM_OUT);
                             } catch (android.content.ActivityNotFoundException anfe) {
                                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+                                overridePendingTransition(MobiConstants.ANIM_IN,MobiConstants.ANIM_OUT);
                             }
                             finish();
                         }

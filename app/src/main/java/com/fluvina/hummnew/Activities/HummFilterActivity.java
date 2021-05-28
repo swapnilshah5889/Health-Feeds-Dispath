@@ -104,7 +104,7 @@ public class HummFilterActivity extends AppCompatActivity {
             llToolbarLeft.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    finish();
+                    onBackPressed();
                 }
             });
 
@@ -113,6 +113,7 @@ public class HummFilterActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     Intent i = new Intent(HummFilterActivity.this,HummSearchActivity.class);
                     startActivity(i);
+                    overridePendingTransition(MobiConstants.ANIM_IN, MobiConstants.ANIM_OUT);
                 }
             });
 
@@ -120,7 +121,7 @@ public class HummFilterActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     MobiBroadcaster.Mobi_ShowInsights();
-                    finish();
+                    onBackPressed();
                 }
             });
 
@@ -128,7 +129,7 @@ public class HummFilterActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     MobiBroadcaster.Mobi_ResetHumm();
-                    finish();
+                    onBackPressed();
                 }
             });
 
@@ -142,7 +143,7 @@ public class HummFilterActivity extends AppCompatActivity {
             try {
                 String message = intent.getStringExtra(MobiBroadcaster.CategoryFilter_Tag);
                 if (message != null) {
-                    finish();
+                    onBackPressed();
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -156,7 +157,7 @@ public class HummFilterActivity extends AppCompatActivity {
             try {
                 String message = intent.getStringExtra(MobiBroadcaster.SearchFeeds_Tag);
                 if (message != null) {
-                    finish();
+                    onBackPressed();
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -168,9 +169,15 @@ public class HummFilterActivity extends AppCompatActivity {
         @Override
         public void itemClick(int position) {
             MobiBroadcaster.Mobi_ShowParticularInsights(insightList.get(position).getId()+"");
-            finish();
+            onBackPressed();
         }
     };
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(MobiConstants.ANIM_IN,MobiConstants.ANIM_OUT);
+    }
 
     //API Calls
 

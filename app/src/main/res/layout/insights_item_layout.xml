@@ -18,13 +18,17 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:translationZ="@dimen/_1sdp"
+            android:src="@drawable/img_splash"
             android:id="@+id/ivInsightBkg"
             android:scaleType="centerCrop"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
         <ImageView
+            android:translationZ="@dimen/_2sdp"
+            android:src="@drawable/img_splash"
             android:id="@+id/ivInsight"
-            android:background="@color/Grey2"
+            android:background="@color/transparent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 

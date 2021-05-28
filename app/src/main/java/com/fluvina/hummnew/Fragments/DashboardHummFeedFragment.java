@@ -275,6 +275,7 @@ public class DashboardHummFeedFragment extends Fragment implements View.OnClickL
                 //Humm Filter
                 Intent intent = new Intent(getActivity(), HummFilterActivity.class);
                 startActivity(intent);
+                getActivity().overridePendingTransition(MobiConstants.ANIM_IN,MobiConstants.ANIM_OUT);
                 break;
 
             case R.id.btnInternetTryAgain:

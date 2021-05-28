@@ -2,6 +2,8 @@ package com.fluvina.hummnew.Utilities;
 
 import android.os.Environment;
 
+import com.fluvina.hummnew.R;
+
 /**
  * Created by DeskTop on 26-Oct-15.
  */
@@ -122,4 +124,8 @@ public class MobiConstants {
     public static final int HUMM_ICON_PADDING = 5;
 
     public static String SHARED_INSHORTS_DIRECTORY = Environment.getExternalStorageDirectory() + "/.MobiHealth/HealthInShorts/";
+
+
+    public static final int ANIM_IN = R.anim.fade_in;
+    public static final int ANIM_OUT = R.anim.fade_out;
 }

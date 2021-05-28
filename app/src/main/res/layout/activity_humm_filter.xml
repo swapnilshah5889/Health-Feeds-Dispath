@@ -31,7 +31,7 @@
 
                 <LinearLayout
                     android:id="@+id/llSearchHumm"
-                    android:background="@drawable/rounded_corner_theme_background"
+                    android:background="@drawable/edittext_white_rounded_corner"
                     android:backgroundTint="@color/Grey2"
                     android:padding="@dimen/_5sdp"
                     android:orientation="horizontal"
