@@ -10,7 +10,7 @@ repositories {
 }
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 33
     buildToolsVersion "29.0.3"
     useLibrary 'org.apache.http.legacy'
 
@@ -22,7 +22,7 @@ android {
     defaultConfig {
         applicationId "com.fluvina.hummnew"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 33
         versionCode 1
         versionName "21.3.1"
 

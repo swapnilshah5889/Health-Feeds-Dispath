@@ -1,5 +1,6 @@
 package com.fluvina.hummnew.fcm;
 
+import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -62,7 +63,7 @@ public class NotificationUtils {
 
 
         //intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-        final PendingIntent resultPendingIntent =
+        @SuppressLint("UnspecifiedImmutableFlag") final PendingIntent resultPendingIntent =
                 PendingIntent.getActivity(
                         mContext,
                         0,
